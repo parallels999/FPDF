@@ -42,3 +42,18 @@ You can write to me [here](mailto:oliver@fpdf.org) (but please use the forum for
 
 ## About this repository
 The `/fpdf` directory contains a clone of the official FPDF releases, available at http://www.fpdf.org. No modifications will be made to that directory, which contains the history of changes between versions.
+
+## Installation
+
+Add to your "__composer.json__" file under the "__require__" section:
+
+```
+"fpdf/fpdf": "^1.85"
+```
+
+
+Update composer
+
+```sh
+php composer.phar update
+```
